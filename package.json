@@ -1,0 +1,25 @@
+{
+  "name": "pkcs1-to-pkcs8-publickey-converter",
+  "version": "0.0.1",
+  "description": "Converting pkcs1 to pkcs8 public key format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacopoDaeli/pkcs1-to-pkcs8-publickey-converter.git"
+  },
+  "keywords": [
+    "RSA",
+    "PKCS1",
+    "PKCS8",
+    "Crypto"
+  ],
+  "author": "Jacopo Daeli <jacopo.daeli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacopoDaeli/pkcs1-to-pkcs8-publickey-converter/issues"
+  },
+  "homepage": "https://github.com/JacopoDaeli/pkcs1-to-pkcs8-publickey-converter#readme"
+}
