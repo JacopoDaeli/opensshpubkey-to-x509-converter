@@ -1,7 +1,7 @@
 {
   "name": "pkcs1-to-pkcs8-publickey-converter",
-  "version": "0.0.1",
-  "description": "Converting pkcs1 to pkcs8 public key format.",
+  "version": "0.0.2",
+  "description": "Converting pkcs1 public key to pkcs8 format.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
