@@ -1,6 +1,6 @@
 {
   "name": "pkcs1-to-pkcs8-publickey-converter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Converting pkcs1 public key to pkcs8 format.",
   "main": "index.js",
   "scripts": {
