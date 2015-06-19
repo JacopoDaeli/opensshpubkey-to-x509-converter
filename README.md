@@ -1,5 +1,6 @@
 # opensshpubkey-to-x509-converter
-Convert OpenSSH public key into a x.509 public key.
+Convert an OpenSSH public key into a x.509 public key.
+
 
 ## Usage
 ```
@@ -11,6 +12,7 @@ const x509 = ospkTo509(openSSHPubKey, 'rsa'); // or dsa
 
 console.log(x509);
 ```
+
 
 Starting from the private key, using `openssl`,
 ```

@@ -1,7 +1,7 @@
 {
   "name": "opensshpubkey-to-x509-converter",
   "version": "0.0.2",
-  "description": "Convert OpenSSH public key into a x.509 public key.",
+  "description": "Convert an OpenSSH public key into a x.509 public key.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
