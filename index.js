@@ -5,17 +5,17 @@ const Ber = require('asn1').Ber;
 
 const RE_KEY_LEN = /(.{64})/g;
 
-let publicKey;
-let nStart, nLen, eStart, eLen; // RSA
-let pStart, pLen, qStart, qLen, gStart, gLen, yStart, yLen; // DSA
-
-let p = 4 + 7; // 11
-
-let asnWriter = new Ber.Writer();
-asnWriter.startSequence();
-
 module.exports = function(publicKey, type, parsed) {
   // Type: rsa, dsa
+
+  let publicKey;
+  let nStart, nLen, eStart, eLen; // RSA
+  let pStart, pLen, qStart, qLen, gStart, gLen, yStart, yLen; // DSA
+
+  let p = 4 + 7; // 11
+
+  let asnWriter = new Ber.Writer();
+  asnWriter.startSequence();
 
   if(!parsed) {
     publicKey = require('ssh2-streams').utils.parseKey(publicKey).public;
