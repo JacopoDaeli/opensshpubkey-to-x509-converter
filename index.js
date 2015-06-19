@@ -8,7 +8,6 @@ const RE_KEY_LEN = /(.{64})/g;
 module.exports = function(publicKey, type, parsed) {
   // Type: rsa, dsa
 
-  let publicKey;
   let nStart, nLen, eStart, eLen; // RSA
   let pStart, pLen, qStart, qLen, gStart, gLen, yStart, yLen; // DSA
 

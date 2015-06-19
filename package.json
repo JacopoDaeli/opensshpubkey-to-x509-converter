@@ -1,6 +1,6 @@
 {
   "name": "opensshpubkey-to-x509-converter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Convert an OpenSSH public key into a x.509 public key.",
   "main": "index.js",
   "scripts": {
