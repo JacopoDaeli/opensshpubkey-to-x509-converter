@@ -1,13 +1,13 @@
-# pkcs1-to-pkcs8-publickey-converter
-Converting pkcs1 public key to pkcs8 format.
+# opensshpubkey-to-x509-converter
+Convert OpenSSH public key into a x.509 public key.
 
 ## Usage
 ```
 const fs = require('fs');
-const p1to8pc = require('pkcs1-to-pkcs8-publickey-converter');
+const ospkTo509 = require('opensshpubkey-to-x509-converter');
 
-const pkcs1 = fs.readFileSync('path/to/id_rsa.pub')
-const pkcs8 = p1to8pc(pkcs1, 'rsa'); // or dsa
+const openSSHPubKey = fs.readFileSync('path/to/id_rsa.pub')
+const x509 = ospkTo509(openSSHPubKey, 'rsa'); // or dsa
 
-console.log(pkcs8);
+console.log(x509);
 ```

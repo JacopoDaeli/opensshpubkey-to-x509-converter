@@ -1,5 +1,5 @@
 {
-  "name": "pkcs1-to-pkcs8-publickey-converter",
+  "name": "opensshpubkey-to-x509-converter",
   "version": "0.0.5",
   "description": "Converting pkcs1 public key to pkcs8 format.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JacopoDaeli/pkcs1-to-pkcs8-publickey-converter.git"
+    "url": "git+https://github.com/JacopoDaeli/opensshpubkey-to-x509-converter.git"
   },
   "keywords": [
     "RSA",
@@ -19,9 +19,9 @@
   "author": "Jacopo Daeli <jacopo.daeli@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JacopoDaeli/pkcs1-to-pkcs8-publickey-converter/issues"
+    "url": "https://github.com/JacopoDaeli/opensshpubkey-to-x509-converter/issues"
   },
-  "homepage": "https://github.com/JacopoDaeli/pkcs1-to-pkcs8-publickey-converter#readme",
+  "homepage": "https://github.com/JacopoDaeli/opensshpubkey-to-x509-converter#readme",
   "dependencies": {
     "asn1": "^0.2.2",
     "ssh2-streams": "git+ssh://git@github.com/JacopoDaeli/ssh2-streams.git"
