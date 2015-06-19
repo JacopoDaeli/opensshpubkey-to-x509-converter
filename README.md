@@ -11,3 +11,9 @@ const x509 = ospkTo509(openSSHPubKey, 'rsa'); // or dsa
 
 console.log(x509);
 ```
+
+Starting from the private key, using `openssl`,
+```
+openssl rsa -in path/to/id_rsa -pubout
+```
+the output is the same.
