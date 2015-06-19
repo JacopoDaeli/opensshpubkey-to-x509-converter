@@ -1,6 +1,6 @@
 {
   "name": "opensshpubkey-to-x509-converter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert an OpenSSH public key into a x.509 public key.",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,9 @@
   },
   "keywords": [
     "RSA",
-    "PKCS1",
-    "PKCS8",
+    "OpenSSH",
+    "Public Key",
+    "x.509",
     "Crypto"
   ],
   "author": "Jacopo Daeli <jacopo.daeli@gmail.com>",

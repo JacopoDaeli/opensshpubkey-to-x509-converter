@@ -90,10 +90,10 @@ module.exports = function(publicKey, type, parsed) {
 
   const b64key = asnWriter.buffer.toString('base64').replace(RE_KEY_LEN, '$1\n');
 
-  let pkcs8 = '-----BEGIN PUBLIC KEY-----\n';
-  pkcs8 += b64key;
-  pkcs8 += (b64key[b64key.length - 1] === '\n' ? '' : '\n');
-  pkcs8 += '-----END PUBLIC KEY-----';
+  let x509 = '-----BEGIN PUBLIC KEY-----\n';
+  x509 += b64key;
+  x509 += (b64key[b64key.length - 1] === '\n' ? '' : '\n');
+  x509 += '-----END PUBLIC KEY-----';
 
-  return pkcs8;
+  return x509;
 }
